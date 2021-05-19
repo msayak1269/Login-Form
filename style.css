@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to bottom right,#23C4ED,#a6a5ff);
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-image: url("/img/img1.png");
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+  } */
+
+#outerContainer{
+display: flex;
+align-items: center;
+justify-content: center;  
+align-content:center; 
+min-height: 100%;  
+min-height: 100vh;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+#form-div{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+}
+
+input{
+    border: none !important;
+}
+
+#email{
+    background-color: #b6c9f036 !important;
+    color: black !important;
+}
+
+#password{
+    background-color: #f7a54013 !important;
+    color: red !important;
+}
+
+#password::placeholder{
+    color: red !important;
+}
+
+#connect-with{
+    font-size: 70%;
+    color: slategray;
+}
+
+#help{
+    float: right;
+    color: rgba(0, 0, 255, 0.685);
+}
+
+#btn-container{
+    margin-top: 50px;
+    
+}
+
+#login-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#signup{
+    font-weight: bold !important;
+}
